@@ -1,3 +1,7 @@
+import React from "React";
+import Header from "./Header.js";
+import Main from "./Main.js";
+import Footer from "./Footer.js";
 function App() {
   return (
     <div className="App">
@@ -45,8 +49,12 @@ function App() {
       <footer>
         <p className="country">United Kingdom</p>
       </footer>
+
+      <Header />
+      <Main />
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
