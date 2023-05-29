@@ -20,7 +20,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@babel/runtime": "^7.21.0"
+    "@babel/runtime": "^7.22.3"
   },
   "dependencies": {
     "react": "^18.2.0",
