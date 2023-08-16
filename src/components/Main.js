@@ -1,4 +1,4 @@
-import MainDiv from './subcomponents/MainDiv'
+import Buttons from './subcomponents/Buttons'
 import MainInput from './subcomponents/MainInput'
 import MainImage from './subcomponents/MainImage'
 
@@ -7,9 +7,11 @@ import MainImage from './subcomponents/MainImage'
 function Main() {
     return (
         <main>
-            <MainDiv />
-            <MainInput />
+      
+         
             <MainImage />
+            <MainInput />
+            <Buttons />
 
 
         </main>

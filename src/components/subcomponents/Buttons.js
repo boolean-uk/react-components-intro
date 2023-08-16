@@ -1,4 +1,4 @@
-function MainIDivjs() {
+function Buttons() {
     return (
         <div className="buttons">
             <button>Google Search</button>
@@ -6,4 +6,4 @@ function MainIDivjs() {
         </div>
     )
 }
-export default MainIDivjs
+export default Buttons
