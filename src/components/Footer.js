@@ -1,7 +1,9 @@
+import Country from "./footer_components/Country"
+
 function Footer() {
   return (
     <footer>
-      <p className="country">United Kingdom</p>
+      <Country />
     </footer>
   )
 }
