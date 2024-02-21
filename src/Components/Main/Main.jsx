@@ -2,7 +2,6 @@ import "./Main.css"
 
 const Main = () => {
     return (
-
     <main>
         <img
         className="logo"
@@ -11,8 +10,8 @@ const Main = () => {
         />
         <input className="search-bar" type="search" />
         <div className="buttons">
-        <button>Google Search</button>
-        <button>Feeling Lucky</button>
+            <button>Google Search</button>
+            <button>Feeling Lucky</button>
         </div>
     </main>
     )
