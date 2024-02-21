@@ -1,3 +1,4 @@
+import Buttons from './Buttons'
 import './Middle.css'
 
 function Middle()
@@ -10,10 +11,7 @@ function Middle()
           alt="Google logo"
         />
         <input className="search-bar" type="search" />
-        <div className="buttons">
-          <button>Google Search</button>
-          <button>Feeling Lucky</button>
-        </div>
+        <Buttons />
       </main>
     )
 }
