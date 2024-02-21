@@ -1,3 +1,4 @@
+import Buttons from "./MainButtons";
 function MainBody() {
   return (
     <main>
@@ -7,10 +8,7 @@ function MainBody() {
         alt="Google logo"
       />
       <input className="search-bar" type="search" />
-      <div className="buttons">
-        <button>Google Search</button>
-        <button>Feeling Lucky</button>
-      </div>
+      <Buttons />
     </main>
   );
 }
