@@ -1,4 +1,5 @@
 import '../App.css'
+import SearchBar from './Searchbar';
 
 function Main() {
   return (
@@ -8,7 +9,7 @@ function Main() {
         src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
         alt="Google logo"
       />
-      <input className="search-bar" type="search" />
+      <SearchBar />
       <div className="buttons">
         <button>Google Search</button>
         <button>Feeling Lucky</button>
