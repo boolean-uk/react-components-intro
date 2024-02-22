@@ -1,22 +1,15 @@
-import './Styles/App.css'
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import Header from './Header.jsx'
+import Mid from './Mid.jsx'
+import Footer  from './Footer.jsx'
 
-function App() {
-  return (
-    <>
-      <main>
-        <img
-          className="logo"
-          src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
-          alt="Google logo"
-        />
-        <input className="search-bar" type="search" />
-        <div className="buttons">
-          <button>Google Search</button>
-          <button>Feeling Lucky</button>
-        </div>
-      </main>
-    </>
-  );
-}
-
-export default App;
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <div className="App">
+      <Header/>
+      <Mid />
+      <Footer />
+    </div>
+  </React.StrictMode>,
+)
