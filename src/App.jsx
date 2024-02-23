@@ -1,6 +1,6 @@
 import './App.css'
 import HeaderComponent from './components/HeaderComponent';
-import FooterComponent from './components/FooterComponent';
+import FooterComponent from './components/footer/FooterComponent';
 import MainBodyComponent from './components/MainBodyComponent';
 
 function App() {
