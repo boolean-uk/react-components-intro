@@ -1,10 +1,11 @@
 import ImgComponent from "../extension/ImgComponent"
+import SearchComponent from "../extension/SearchComponent"
 import ButtonsComponent from "../extension/ButtonsComponent"
 
 function MainComponent() {
     return (<main>
     <ImgComponent/>
-    <input className="search-bar" type="search" />
+    <SearchComponent/>
     <ButtonsComponent/>
   </main>
     )
